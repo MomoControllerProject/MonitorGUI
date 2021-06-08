@@ -1,0 +1,22 @@
+<FluentWindow xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="480"
+        x:Class="MonitorGUI.MainWindow"
+        Icon="{x:Null}"
+        xmlns:local="clr-namespace:MonitorGUI"
+        WindowStartupLocation="CenterScreen"
+        Background="{x:Null}"
+        WindowState="FullScreen"
+        Title="MonitorGUI">
+  <FluentWindow.Styles>
+    <Style Selector="TitleBar:fullscreen">
+      <Setter Property="Background" Value="#7f000000" />
+    </Style>
+  </FluentWindow.Styles>
+
+  <Panel>
+    <local:MainView></local:MainView>
+  </Panel>
+</FluentWindow>

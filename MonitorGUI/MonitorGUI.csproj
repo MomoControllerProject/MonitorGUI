@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\avalonia-logo.ico" />
+    <None Remove="Assets\boards.png" />
+    <None Remove="Assets\Fonts\SourceCodePro-Black.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-BlackItalic.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-Bold.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-BoldItalic.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-ExtraLight.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-ExtraLightItalic.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-Italic.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-Light.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-LightItalic.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-Medium.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-MediumItalic.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-Regular.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-SemiBold.ttf" />
+    <None Remove="Assets\Fonts\SourceCodePro-SemiBoldItalic.ttf" />
+    <None Remove="Assets\github_icon.png" />
+    <None Remove="Assets\overview.png" />
+    <None Remove="Assets\teapot.bin" />
+    <None Remove="Assets\test_icon.ico" />
+    <None Remove="Styles\SideBar.xaml" />
+    <None Remove="Styles\Styles.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\avalonia-logo.ico" />
+    <AvaloniaResource Include="Assets\boards.png" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-Black.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-BlackItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-Bold.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-BoldItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-ExtraLight.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-ExtraLightItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-Italic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-Light.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-LightItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-Medium.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-MediumItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-Regular.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-SemiBold.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\SourceCodePro-SemiBoldItalic.ttf" />
+    <AvaloniaResource Include="Assets\github_icon.png" />
+    <AvaloniaResource Include="Assets\overview.png" />
+    <AvaloniaResource Include="Assets\teapot.bin" />
+    <AvaloniaResource Include="Assets\test_icon.ico" />
+    <AvaloniaResource Include="Styles\SideBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.10.6" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.6" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.6" />
+   </ItemGroup>
+</Project>
