@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              
+            xmlns:pages="clr-namespace:MonitorGUI.Pages;assembly=MonitorGUI"
              Foreground="{StaticResource SystemBaseHighColor}"
              FontSize="14"
              x:Class="MonitorGUI.MainView">
@@ -28,6 +29,9 @@
       <TabItem Header="Styles">
       </TabItem>
       <TabItem Header="Text">
+      </TabItem>
+      <TabItem Header="Test">
+        <pages:TestPage></pages:TestPage>
       </TabItem>
     </TabControl>
   </Panel>
